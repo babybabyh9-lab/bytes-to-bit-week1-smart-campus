@@ -1,0 +1,125 @@
+
+/* PROFESSIONAL WEBSITE UPGRADE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7fb;
+    color: #253247;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #102a43, #116b70);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 17px;
+    margin: 5px 0 22px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #102a43;
+}
+
+section {
+    background: white;
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(20,40,70,0.06);
+}
+
+section h2 {
+    color: #116b70;
+    font-size: 26px;
+    border-bottom: 2px solid #e4edf2;
+    padding-bottom: 12px;
+}
+
+.card {
+    background: #f7fafc;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 12px;
+    border-left: 4px solid #168b87;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 18px rgba(20,40,70,0.09);
+}
+
+.card h3 {
+    color: #173b55;
+    margin-top: 0;
+}
+
+footer {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        padding: 9px 13px;
+        font-size: 14px;
+    }
+
+    section {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+}
+.
